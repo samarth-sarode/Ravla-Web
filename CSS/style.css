@@ -248,6 +248,7 @@ body{
     .carousel-inner{
         max-height: fit-content;
         object-fit: contain;
+        height: 25rem;
     }
 
     
