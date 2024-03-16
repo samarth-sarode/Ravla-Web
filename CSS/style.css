@@ -234,11 +234,11 @@ body{
     }
 
     .navbar-brand img{
-        height: 3rem;
+        height: 4rem;
     }
 
     .navbar{
-        height: 4rem;
+        height: 5rem;
     }
 
     .nav-link{
@@ -246,42 +246,43 @@ body{
     }
 
     .carousel-inner{
-        max-height: fit-content;
+        /* max-height: fit-content; */
         object-fit: contain;
-        height: 25rem;
+        max-height: 30rem;
     }
 
     
     .d-block{
-        transform:scaleY(0.7)
+        /* transform:scaleY(0.7); */
     }
 
     .company-info p{
-        font-size: 0.9rem;
-        margin: 0 1rem 0 1rem;
-        padding: 0.5rem;
+        font-size: 1.2rem;
+        margin: 0 2rem 0 2rem;
+        padding: 0.8rem;
     }
     
     .footer-icons div {
-        font-size: 0.8rem;
-    }
-
-    .footer-icons div:hover {
         font-size: 0.9rem;
     }
 
+    .footer-icons div:hover {
+        font-size: 1rem;
+    }
+
     .footer-text{
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     .f-info{
-        height: 5rem;
+        height: 6rem;
     }
 
      /* About Page */
     .about-img{
         object-fit: contain;
-        transform: scaleY(0.7);
+        max-width: 28rem;
+        /* transform: scaleY(0.7); */
     }
 
     .lead{
@@ -327,38 +328,39 @@ body{
     }
 
     .navbar{
-        height: 3rem;
+        height: 4rem;
     }
     
     .navbar-brand img{
-        height: 2rem;
+        height: 3rem;
     }
 
     .nav-link{
         font-size: 0.8rem;
-        height: 25rem;
     }
 
     .carousel-inner{
         object-fit: contain;
+        max-height: 30rem;
+        width: auto;
     }
 
     .d-block{
-        transform:scaleY(0.5);
+        /* transform:scaleY(0.8); */
     }
 
     .company-info p{
-        font-size: 0.6rem;
+        font-size: 1rem;
         margin: 0 0.5rem 0 0.5rem;
-        padding: 0.2rem;
+        padding: 0.4rem;
     }
     
     .footer-icons div {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
 
     .footer-icons div:hover {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     .footer-text{
@@ -367,13 +369,13 @@ body{
     }
 
     .f-info{
-        height: 4rem;
+        height: 5rem;
     }
 
     /* About Page */
     .about-img{
         object-fit: contain;
-        transform: scaleY(0.5);
+        /* transform: scaleY(0.5); */
     }
 
     .lead{
