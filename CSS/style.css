@@ -336,6 +336,7 @@ body{
 
     .nav-link{
         font-size: 0.8rem;
+        height: 25rem;
     }
 
     .carousel-inner{
