@@ -286,11 +286,11 @@ body{
     }
 
     .lead{
-        font-size: 0.9rem !important;
+        font-size: 1rem !important;
     }
     
     .center-bt{
-        font-size: 1rem;
+        font-size: 1.1rem;
         margin-top: 0.8rem;
     }
 
@@ -379,12 +379,12 @@ body{
     }
 
     .lead{
-        font-size: 0.7rem !important;
+        font-size: 0.9rem !important;
     }
     
     .center-bt{
-        font-size: 0.8rem;
-        margin-top: 0.7rem;
+        font-size: 1rem;
+        margin-top: 0.8rem;
     }
 
     .container-md{
