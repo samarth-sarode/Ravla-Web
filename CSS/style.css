@@ -115,6 +115,7 @@ body{
     border-radius: 2rem;
     /* margin: 1rem; */
     /* width: fit-content; */
+    margin: 1rem;
 }
 
 .card-style{
@@ -130,6 +131,7 @@ body{
     /* border-radius: 2rem; */
     margin-top: 1rem;
     border-radius: 2rem;
+
 }
 
 .card-title{
@@ -222,3 +224,181 @@ body{
     flex-direction: row;
     margin-bottom: 1rem;
 }
+
+/* Media query  for medium size*/
+
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .home-page{
+        padding: 0rem;
+    }
+
+    .navbar-brand img{
+        height: 3rem;
+    }
+
+    .navbar{
+        height: 4rem;
+    }
+
+    .nav-link{
+        font-size: 1rem;
+    }
+
+    .carousel-inner{
+        max-height: fit-content;
+        object-fit: contain;
+    }
+
+    
+    .d-block{
+        transform:scaleY(0.7)
+    }
+
+    .company-info p{
+        font-size: 0.9rem;
+        margin: 0 1rem 0 1rem;
+        padding: 0.5rem;
+    }
+    
+    .footer-icons div {
+        font-size: 0.8rem;
+    }
+
+    .footer-icons div:hover {
+        font-size: 0.9rem;
+    }
+
+    .footer-text{
+        font-size: 1.1rem;
+    }
+
+    .f-info{
+        height: 5rem;
+    }
+
+     /* About Page */
+    .about-img{
+        object-fit: contain;
+        transform: scaleY(0.7);
+    }
+
+    .lead{
+        font-size: 0.9rem !important;
+    }
+    
+    .center-bt{
+        font-size: 1rem;
+        margin-top: 0.8rem;
+    }
+
+    .container-md{
+        color: black;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+    .choose-text-items{
+        text-align: center;
+        align-items: center;
+        font-size: 0.9rem !important;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    /* Product Page */
+
+    .card{
+        width: 18rem !important;
+    }
+
+    .card-img{
+        height: 18rem;
+    }
+}   
+
+/* Media Query for small size */
+
+@media screen and (min-width: 0px) and (max-width: 480px){
+    .home-page{
+        padding: 0rem;
+    }
+
+    .navbar{
+        height: 3rem;
+    }
+    
+    .navbar-brand img{
+        height: 2rem;
+    }
+
+    .nav-link{
+        font-size: 0.8rem;
+    }
+
+    .carousel-inner{
+        object-fit: contain;
+    }
+
+    .d-block{
+        transform:scaleY(0.5);
+    }
+
+    .company-info p{
+        font-size: 0.6rem;
+        margin: 0 0.5rem 0 0.5rem;
+        padding: 0.2rem;
+    }
+    
+    .footer-icons div {
+        font-size: 0.6rem;
+    }
+
+    .footer-icons div:hover {
+        font-size: 0.7rem;
+    }
+
+    .footer-text{
+        font-size: 0.9rem;
+  
+    }
+
+    .f-info{
+        height: 4rem;
+    }
+
+    /* About Page */
+    .about-img{
+        object-fit: contain;
+        transform: scaleY(0.5);
+    }
+
+    .lead{
+        font-size: 0.7rem !important;
+    }
+    
+    .center-bt{
+        font-size: 0.8rem;
+        margin-top: 0.7rem;
+    }
+
+    .container-md{
+        color: black;
+        text-align: center;
+        margin-top: 1.1rem;
+    }
+
+    .choose-text-items{
+        text-align: center;
+        align-items: center;
+        font-size: 0.7rem !important;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0.9rem;
+    }
+
+    .card{
+        width: 18rem !important;
+    }
+}   
